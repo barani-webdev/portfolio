@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio  | Barani </title>
+
+<!--box icons-->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- css -->
+<link rel="stylesheet" href="css/style.css">
+
+<!--logo link-->
+<link rel="website icon" type="jpg" href="images/logo.png">
+
+ 
+
+
+</head>
+<body>
+
+    <!-- header design-->
+    <header class="header">
+    <a href="#home" class="logo" ><span style="color:red">P</span>ortfolio.</a>
+
+    <i class='bx bx-menu' id="menu-icon"> </i>
+
+ <nav class="navbar">
+
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#service">Service</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
+</header>
+
+<!--home  section-->
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello ,It's Me</h3>
+        <h1>Baranidharan</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p> I’ve just graduated from Computer Science.
+             Looking for my first job, I decided to go with web development.</p>
+
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100022606545004&mibextid=ZbWKwL"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://wa.me/qr/NHTO67DODKCUK1"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="https://www.instagram.com/mr_black__phoenix?igsh=ejR1cjVkMGdsZjg3"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.linkedin.com/in/barani-dharan-99244b250"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/barani-webdev"><i class='bx bxl-github' ></i></a>
+        </div>
+        <a href="images/Barani.pdf" download class="btn" data-toggle="tooltip" title="Click here to Download CV">Download CV</a>
+    </div>
+
+        <div class="home-img">
+            <img src="images/barani1.jpg" alt="">
+        </div>
+</section>
+
+
+<!--about  section-->
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images/barani.jpg" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me...</span></h2><br><br><br>
+        <h3>Web Developer | PHP Developer | Java Developer</h3>
+        <p>My name is Baranidharan, 22 years old,  since I understand
+              that, it is impossible to succeed in almost any business without some online presence.
+               Hence I know the opportunities are there and will stay there. But I am not one who would
+                opt for freelancing, since I do not enjoy that part of the job–looking for clients, 
+                doing marketing, keeping books. I simply enjoy working on the code, developing beautiful websites, 
+                and that’s why I apply for this job with you.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML</span><br>Structure of Elements & Atributes</li>
+                        <li><span>CSS</span> <br>Designing web pages</li>
+                        <li><span>JavaScript</span> <br>Animation Process</li>
+                        <li><span>Bootstrap</span> <br>Frameworks Templates</li>
+                        <li><span>Ui/Ux</span> <br>Designing web/App interfaces</li>
+                        <li><span>PHP</span> <br>Scripting language excute the server</li>
+                        <li><span>Core Java</span><br>programming for Back-end</li>
+                        <li><span>SQL</span><br> Connectivity for databases</li>
+                        <li><span>Spring Boot</span><br> Rest API & Dependencies</li>   
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>January 2023 - March 2023</span><br>Worked as Internship Trainee  <b>PHP DEVELOPER </b> Accent Techno Soft(ATS).</li>  
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span><b>KONGUNADU ARTS AND SCIENCE COLLEGE OF HIGHER EDUCATION</b></span><br>U.G - &nbsp B.Sc.Computer Science - 76% (2020- 2023).</li>
+                        <li><span><b>SRI RAGAVENDRA VIDYALAYA MATRICULATION HIGHER SECONDARY SCHOOL(Vadavalli).</b></span> <br>HSC&nbsp&nbsp&nbsp:&nbsp61.8% &nbsp(2020).</li>
+                        <li>SSLC&nbsp:&nbsp80.4% &nbsp(2018).</li>  
+                    </ul>
+                </div>
+    </div>
+</section>
+
+<!--service section-->
+<section class="service" id="service">
+    <h2 class="heading">My <span>Services</span></h2>
+
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bx-code-alt' ></i>
+            <h3>Web Development</h3>
+            <p>Web development refers to the creating, building, and maintaining of websites.
+                 It includes aspects such as web design, web publishing, web programming, and database management.
+                 its creation of an application that works over the internet i.e. websites.</p>
+                 <a href="https://www.geeksforgeeks.org/web-development/" class="btn">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxs-user-detail'></i>
+            <h3>Back-end Development</h3>
+            <p>Backend Development involves the logical, database, and other operations are build behind
+                 the scenes to run the web servers efficiently..It involves everything that exists in the server,
+                  including data modeling and storage, 
+                 security concerns, and website architecture.</p>
+                 <a href="https://www.geeksforgeeks.org/best-backend-development-courses/" class="btn">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxs-data'></i>
+            <h3>Database Connections</h3>
+            <p> Database Connectivity is  standard API or we can say an application interface
+                 present between the Java programming language and PHP and the databases 
+                  SQL,MySQL. It basically connects the front end
+                with the backend for storing data entered by the users in the table details.</p>
+                 <a href="https://www.geeksforgeeks.org/sql-tutorial/" class="btn">Learn More</a>
+        </div>
+        <div class="services-box">
+        <h2 class="heading">My <span> Technical Tools</span></h2>
+
+        <i class='bx bxl-html5' style="color:orangered;"></i>
+        <i class='bx bxl-css3' style="color:#0041C2" ></i>
+        <i class='bx bxl-javascript' style="color:yellow"></i>
+        <i class='bx bxl-bootstrap' style="color:#6A287E"></i>
+        <i class='bx bxs-paint' style="color:sandybrown"></i>
+        <i class='bx bxl-adobe'style="color:red" ></i>
+        <i class='bx bxl-php' style="color:black"></i>
+        <i class='bx bxl-java' style="color:#FFA62F"></i>
+        <i class='bx bxs-data'style="color:#3BB9FF"></i>
+        <i class='bx bxl-spring-boot' style="color:greenyellow"></i>
+        <i class='bx bxl-visual-studio' style="color:#2F539B"></i>
+        <i class='bx bxl-github' style="color:black"></i>
+        </div>
+        
+
+    </div>
+</section>
+
+<!--Portfolio section-->
+<section class="portfolio" id="portfolio">
+<h2 class="heading">Latest <span>Projects</span></h2>
+
+<div class="portfolio-container">
+    <div class="portfolio-box">
+        <img src="images/port1.jpg" alt="">
+        <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p><b>Online Cakes and Sweets Ordering System </b></p>
+            <a href="http://localhost/Barani%20projects/myproject/"><i class='bx bx-link-external' ></i></a>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="images/port2.jpg" alt="">
+        <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p><b>Library Management System</b></p>
+            <a href="https://barani-webdev.github.io/anyvelai/"><i class='bx bx-link-external' ></i></a>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="images/port3.jpg" alt="">
+        <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p><b>Vehicle Management System</b></p>
+            <a href="http://localhost/Barani%20projects/vehicle/VEHICLE_MANAGEMENT_SYSTEM_IN_PHP_WITH_SOURCE_CODE/Vehicle-Management/"><i class='bx bx-link-external' ></i></a>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="images/port4.webp" alt="">
+        <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p><b>Online Flipkart Shopping System</b></p>
+            <a href="http://localhost/Barani%20projects/online-shopping-system-master/"><i class='bx bx-link-external' ></i></a>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="images/port5.jpg" alt="">
+        <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p><b>Art Gallery Management System</b></p>
+            <a href="http://localhost/Barani%20projects/art/Art-Gallary-php-master/Art-Gallary-php-master/"><i class='bx bx-link-external' ></i></a>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="images/port6.jpg" alt="">
+        <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p><b>Diabetics Healthcare in Young and Old Patients</b></p>
+            <a href="http://localhost/Barani%20projects/dia/Diabetes%20health%20care%20in%20young%20and%20old%20Pation/Diabetes%20health%20care%20in%20young%20and%20old%20Pation/"><i class='bx bx-link-external' ></i></a>
+        </div>
+    </div>
+
+</div>
+</section>
+
+<!--Contact section-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+   
+            <form name="submit-to-google-sheet">
+                <div class="input-box">
+                <input type="text" name="Name" placeholder="Your Name" required />
+                <input type="email" name="Email" placeholder="Your E-mail" required />
+                </div>
+                <div class="input-box">
+                <input type="number" name="Number" placeholder="Your Mobile Number" required />
+                <input type="text" name="City" placeholder="Your City" required />
+                </div>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn" >Send </button>
+            </form>
+            <span id="msg"></span>
+</section>
+
+<!--footer section-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy;2024 by Baranidharan | All Rights Reserved</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bxs-up-arrow-circle'></i></a>
+    </div>
+
+</footer>
+
+
+<!--scroll reveal-->
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--typed js-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- script js -->
+    <script defer src="script.js"></script>
+
+ 
+</body>
+</html>
