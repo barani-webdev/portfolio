@@ -493,8 +493,8 @@ transform: translateY(-5px);
             font-size: 5rem;
         }
         .home-img img{
-            width: 70vw;
-            height: 70vh;
+            width: 75vw;
+            height: 50vh;
             margin-top: 4rem;
 
         }
@@ -503,8 +503,8 @@ transform: translateY(-5px);
             flex-direction: column-reverse;
         }
         .about img{
-            width: 70vw;
-            height: 70vh;
+            width: 75vw;
+            height: 50vh;
             margin-top: 4rem;
 
         }
