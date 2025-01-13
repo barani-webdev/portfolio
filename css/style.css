@@ -77,8 +77,8 @@ section{
     align-items: center;
 }
 .home-img img{
-    width: 33vw;
-    height: 33vw;
+    width: 30vw;
+    height: 35vw;
     border-radius: 700px;
     box-shadow: 0 0 25px;
     color: #0ef;
@@ -166,8 +166,8 @@ transform: translateY(-5px);
     background: var(--second-bg-color);
 }
 .about-img img{
-    width: 33vw;
-    height: 33vw;
+    width: 30vw;
+    height: 35vw;
     border-radius: 700px;
     
 }
